@@ -1,0 +1,45 @@
+!/bin/bash
+# Script: Ops 301 Class 01 Ops Challenge Solution
+# Author: James Moring
+# Date of latest revision: 9/11/2022
+# Purpose: Powershell AD Automation
+
+# Main
+
+$Attributes = @{
+
+Enabled = $true
+
+ChangePasswordAtLogon = $true
+
+UserPrincipalName = "ferdi@globeXpower.com"
+
+Name = "Franz Fredinand"
+
+GivenName = "Franz"
+
+Surname = "Ferdinand"
+
+DisplayName = "Franz Fredinand"
+
+Description = ""
+
+Office = ""
+
+Company = "GlobeX USA"
+
+Department = "TPS Department"
+
+Title = "TPS Reporting Lead"
+
+City = "Springfield"
+
+State = "OR"
+
+AccountPassword = "Spring@123" | ConvertTo-SecureString -AsPlainText -Force
+
+}
+
+New-ADUser @Attributes
+
+# End
