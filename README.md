@@ -8,3 +8,6 @@
 [Ops Challenges class 301 07](Challenge 07.py)
 [Ops Challenges class 301 08](Challenge 08.py)
 [Ops Challenges class 301 09](Challenge 09.py)
+[Ops Challenges class 301 10](Challenge 10.py)
+[Ops Challenges class 301 11](challenge 11.py)
+[Ops Challenges class 301 12](challenge 12.py)
